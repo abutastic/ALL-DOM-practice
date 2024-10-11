@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Practice</title>
+  </head>
+  <style>
+    body {
+      background: #7b4f4f;
+      color: #fff;
+      text-align: center;
+    }
+
+    .highlight {
+      background-color: rgb(255, 255, 19);
+      font-size: 20px;
+      font-weight: 600;
+      color: black;
+    }
+
+    .paragraph {
+      font-size: 20px;
+      font-weight: 600;
+      background-color: green;
+      color: white;
+    }
+  </style>
+  <body>
+    <!-- Example 1 -->
+    <h1>DOM Manipulation practice set</h1>
+    <section>
+      <p id="p1">Click me to change me and my background</p>
+      <button class="submit" id="btn">Click me</button>
+    </section>
+
+    <!-- Example 2 -->
+    <section>
+      <h2>Traversing the dom</h2>
+      <ul id="Citylist">
+        <li>Tokyo</li>
+        <li>New York</li>
+        <li>London</li>
+        <li>Brighton</li>
+      </ul>
+      <button id="btn2">Highlight first city</button>
+    </section>
+
+    <!-- Example 3 -->
+    <section>
+      <h2>Manipulating DOM elements</h2>
+      <div id="coffeeOrder">Order: <span id="coffeetype">Latte</span></div>
+      <button id="changeOrder">Change order to espresso</button>
+    </section>
+
+    <!-- Example 4 -->
+    <section>
+      <h2>Creating and Inserting elements</h2>
+      <button id="addItem">Add new item</button>
+      <ul id="list">
+        <li>Tarkari</li>
+        <li>Tel</li>
+      </ul>
+    </section>
+
+    <!-- Example 5 -->
+    <section>
+      <h2>Removing an element elements</h2>
+      <button id="RemoveItem">Remove item</button>
+      <ul id="tasklist">
+        <li>Tarkari</li>
+        <li>Tel</li>
+        <li>bread</li>
+      </ul>
+    </section>
+
+    <!-- Example 6 -->
+    <section>
+      <h2>Event handling in DOM</h2>
+      <button id="clickme">Click Me!</button>
+    </section>
+
+    <!-- Example 7 -->
+    <section>
+      <h2>Event delegation</h2>
+      <ul id="tealist">
+        <li class="teaItem">Regular Tea</li>
+        <li class="teaItem">Darjiling tea</li>
+        <li class="teaItem">Green Tea</li>
+      </ul>
+      <p id="tea">Click on any tea to select it!</p>
+    </section>
+
+    <!-- Example 8 -->
+    <section>
+      <h2>Form Handling</h2>
+      <form id="feedbackform">
+        <label for="feedback">Your feedback:</label>
+        <input type="text" placeholder="Enter your feedback" id="feedback" />
+        <button id="submitFeed" type="submit">Submit Feedback</button>
+      </form>
+      <p id="displayFeedback"></p>
+    </section>
+
+    <!-- Example 9 -->
+    <section>
+      <h2>DOM content Load</h2>
+      <p id="domStatus">Waiting for DOM to load.</p>
+    </section>
+
+
+    <!-- Example 10 -->
+     <section>
+      <h2>CSS classes Manipulation</h2>
+      <p id="descriptionText">This text will change color</p>
+      <button id="toggleHighlight">Toggle Highlight</button>
+     </section>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
